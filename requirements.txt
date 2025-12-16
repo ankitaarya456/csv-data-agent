@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy
+scikit-learn
+plotly
+transformers==4.46.0
+torch
