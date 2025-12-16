@@ -1,9 +1,22 @@
 # CSV Insight Studio 🧠📊
+**An AI-powered Streamlit application for intelligent CSV data exploration, visualization, machine learning, clustering, and natural language dataset understanding.**
 
-**CSV Insight Studio** is an AI-powered Streamlit application that enables interactive exploration, visualization, machine learning, clustering, and intelligent questioning of CSV datasets — all in one unified interface.
+CSV Insight Studio acts like a **personal data lab**, allowing users to upload CSV files and instantly gain insights using interactive analytics and AI-driven explanations — all from a single unified interface.
 
 🔗 **Live App:**  
 https://csv-data-agent-ankita-arya.streamlit.app/
+
+---
+
+## 🎯 Why This Project?
+This project demonstrates **end-to-end applied Data Science & AI skills**, combining:
+- Exploratory Data Analysis (EDA)
+- Classical Machine Learning workflows
+- Unsupervised learning & dimensionality reduction
+- LLM-powered natural language dataset understanding
+- Deployment-ready Streamlit application
+
+It is designed to reflect **real-world data analysis tools** used by analysts, ML engineers, and data scientists.
 
 ---
 
@@ -12,31 +25,43 @@ https://csv-data-agent-ankita-arya.streamlit.app/
 ### 📂 CSV Exploration
 - Upload one or multiple CSV files
 - Automatic detection of numeric & categorical columns
-- Missing value and column profiling
+- Dataset snapshot (head, shape, column info)
+- Missing value analysis & column profiling
+
+---
 
 ### 📊 Interactive Visualization
-- Histograms for feature distributions  
-- Scatter plots with optional categorical coloring  
-- Correlation heatmaps for numeric features  
+- Histograms for feature distributions
+- Scatter plots with optional categorical coloring
+- Correlation heatmaps for numeric features
+- Dynamic Plotly-based visualizations
+
+---
 
 ### 🤖 Machine Learning Studio
-- Automatic task detection (classification / regression)
-- Models supported:
+- Automatic task detection:
+  - Classification
+  - Regression
+- Supported Models:
   - Logistic Regression
   - Random Forest (Classifier & Regressor)
   - Linear Regression
-- Evaluation metrics:
+- Evaluation Metrics:
   - Accuracy, Precision, Recall, F1-score
   - MAE, RMSE, R²
   - Confusion Matrix
 
+---
+
 ### 🧩 Clustering
 - K-Means clustering on selected numeric features
-- PCA-based 2D cluster visualization
 - Adjustable number of clusters
+- PCA-based 2D cluster visualization for interpretability
+
+---
 
 ### 🧠 AI Dataset Mentor
-- Ask questions about the dataset in plain English
+- Ask questions about the dataset in **plain English**
 - Handles:
   - Column names & data types
   - Dataset size & structure
@@ -46,9 +71,21 @@ https://csv-data-agent-ankita-arya.streamlit.app/
 
 ---
 
+## 🧠 Skills Demonstrated
+- Exploratory Data Analysis (EDA)
+- Feature profiling & correlation analysis
+- Supervised Machine Learning
+- Unsupervised Learning (K-Means, PCA)
+- Model evaluation & interpretation
+- LLM integration for data understanding
+- Streamlit app development
+- Cloud deployment
+
+---
+
 ## 🛠 Tech Stack
 
-- **Frontend:** Streamlit (custom UI & CSS)
+- **Frontend:** Streamlit (custom UI & layout)
 - **Data Processing:** Pandas, NumPy
 - **Visualization:** Plotly
 - **Machine Learning:** Scikit-learn
