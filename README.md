@@ -101,3 +101,8 @@ git clone https://github.com/ankitaarya456/csv-data-agent.git
 cd csv-data-agent
 pip install -r requirements.txt
 streamlit run app.py
+
+---
+## License
+
+This project is licensed under the Apache License 2.0.
